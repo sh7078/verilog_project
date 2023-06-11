@@ -6,5 +6,5 @@
 - Testbench should use task for sending input data to the DUT
 
 ## Verilog Designs with Testbenches
-1. Traffic Light Controller using FSM
-2. 2-Stage pipeline processor
+1. [Traffic Light Controller using FSM](https://github.com/sh7078/verilog_project/tree/main/traffic_light_controller_using_FSM)
+2. [2-Stage pipeline processor](https://github.com/sh7078/verilog_project/tree/main/2-stage%20pipeline%20processor)
