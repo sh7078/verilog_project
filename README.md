@@ -20,9 +20,10 @@
     The ExecuteStage represents the execute stage of the pipeline. It contains execute registers to hold the result of the execution. The result_execute output is assigned with the value of result_execute_reg, computed based on the fetched operands. The result_writeback output is assigned with the value of result_execute_reg. The inputs and outputs of this module are connected to the appropriate signals from the TwoStagePipeline module.
 
 3. [MIPS 32](https://github.com/sh7078/verilog_project/tree/main/MIPS32)
-   
+
+
    In this project, I created an MIPS32(Microprocessor without Interlocked Pipeline Stage) 32-bit processor. It is a family of Reduced Instruction Set Computer (RISC) Instruction Set Architectures (ISA).
-   # It includes a 5-stage process:
+   ##### It includes a 5-stage process:
    -Instruction Fetch
    -Instruction Decode
    -Execution Stage
@@ -31,5 +32,5 @@
 
    Also created testBench to calculate the factorial of the number 7.
    Its sketch diagram is given as:
-   
+   <a href="(https://github.com/sh7078/verilog_project/assets/43909823/1a0ab529-592d-4761-bc5a-232e8ff8a49d" target="blank"><img align="center" src="URL_TO_YOUR_IMAGE" height="300" /></a>
    ![MIPS_Architecture_(Pipelined) svg](https://github.com/sh7078/verilog_project/assets/43909823/1a0ab529-592d-4761-bc5a-232e8ff8a49d)
