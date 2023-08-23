@@ -22,13 +22,20 @@
 3. [MIPS 32](https://github.com/sh7078/verilog_project/tree/main/MIPS32)
 
    In this project, I created an MIPS32(Microprocessor without Interlocked Pipeline Stage) 32-bit processor. It is a family of Reduced Instruction Set Computer (RISC) Instruction Set Architectures (ISA).
-   # It includes a 5-stage process:
-   -Instruction Fetch
-   -Instruction Decode
-   -Execution Stage
-   -Memory Stage
-   -Write back Stage
+   #### It includes a 5-stage process:
+
+   -[Instruction Fetch](#1)
+
+   -[Instruction Decode](#2)
+
+   -[Execution Stage](#3)
+
+   -[Memory Stage](#4)
+
+   -[Write back Stage](#5)
+
 
    Also created testBench to calculate the factorial of the number 7.
    Its sketch diagram is given as:
-   ![MIPS_Architecture_(Pipelined) svg](https://github.com/sh7078/verilog_project/assets/43909823/1a0ab529-592d-4761-bc5a-232e8ff8a49d)
+   
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/MIPS_Architecture_%28Pipelined%29.svg/1280px-MIPS_Architecture_%28Pipelined%29.svg.png" width="full" height="400">
